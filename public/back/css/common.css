@@ -7,6 +7,9 @@ a:hover,
 a:active{
   text-decoration: none;
 }
+.red{
+  color:#a94442;
+}
 ul{
   margin:0;
   padding:0;
@@ -33,6 +36,10 @@ ul{
   left:0;
   background-color: #222D32;
   z-index: 999;
+  transition: all 1s;
+}
+.lt_aside.hidemenu{
+  left:-180px;
 }
 .lt_aside .brand{
   width: 100%;
@@ -88,6 +95,10 @@ ul{
   background-color: pink;
   padding-top: 50px;
   padding-left: 180px;
+  transition: all 1s;
+}
+.lt_main.hidemenu{
+  padding-left: 0;
 }
 .lt_topbar{
   width: 100%;
@@ -97,6 +108,10 @@ ul{
   left:0;
   top:0;
   padding-left: 180px;
+  transition: all 1s;
+}
+.lt_topbar.hidemenu{
+  padding-left: 0;
 }
 .lt_topbar a{
   width: 50px;
